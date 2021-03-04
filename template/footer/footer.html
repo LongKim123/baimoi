@@ -1,229 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Vision</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
-    />
-    <!-- bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-
-    <!-- swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
-
-    <!-- WOW-JS -->
-    <link rel="stylesheet" href="../../WOW/css/libs/animate.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-
-    <!-- venobox -->
-    <link
-      rel="stylesheet"
-      href="../../venobox/venobox.min.css"
-      type="text/css"
-      media="screen"
-    />
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./footer.css" />
-  </head>
-
-  <body>
-    <div class="d-flex flex-row bd-highlight justify-content-center mb-2">
-      <div class="p-2 bd-highlight">
-        <img
-          class="logo-footer"
-          src="../photos/logo-footer.svg"
-          alt=""
-          srcset=""
+    <head>
+        <meta charset="utf-8" />
+        <title>Footer</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
         />
-      </div>
-    </div>
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
 
-    <div class="container-fluid d-flex flex-row bd-highlight">
-      <div class="p-2 bd-highlight my-list-group">
-        <div class="list-group">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item list-active"
-          >
-            <p>tập đoàn hạt giống số 1 tại việt nam</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p>
-              <b>địa chỉ: </b>Số 1 Lương Định Của, Phương Mai, Đống Đa, Hà Nội
-            </p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>điện thoại: </b>(024)-38523294</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>email: </b>nsc@vinaseed.com.vn</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>fax: </b>Số 1 Lương Định Của, Phương Mai, Đống Đa, Hà Nội</p>
-          </a>
+        <!-- swiper -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+        />
+
+        <!-- WOW-JS -->
+        <link rel="stylesheet" href="../../WOW/css/libs/animate.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+        <!-- venobox -->
+        <link
+            rel="stylesheet"
+            href="../../venobox/venobox.min.css"
+            type="text/css"
+            media="screen"
+        />
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="./footer.css" />
+    </head>
+
+    <body>
+        <div
+            class="container d-flex flex-row bd-highlight mb-3 pt-4 pb-4 justify-content-center align-items-center footer-map"
+        >
+            <div class="p-2 bd-highlight">
+                <p>Nhấn vào đây để biết được vị trí của chúng tôi nào !</p>
+            </div>
+            <div class="p-2 bd-highlight">
+                <!-- Button trigger modal -->
+                <butt
+                    class="btn btn-light footer-map__btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                    >
+                        <path
+                            d="M18 0c-3.148 0-6 2.553-6 5.702 0 4.682 4.783 5.177 6 12.298 1.217-7.121 6-7.616 6-12.298 0-3.149-2.852-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm-12-3c-2.099 0-4 1.702-4 3.801 0 3.121 3.188 3.451 4 8.199.812-4.748 4-5.078 4-8.199 0-2.099-1.901-3.801-4-3.801zm0 5.333c-.737 0-1.333-.597-1.333-1.333s.596-1.333 1.333-1.333 1.333.596 1.333 1.333-.596 1.333-1.333 1.333zm6 5.775l-3.215-1.078c.365-.634.777-1.128 1.246-1.687l1.969.657 1.92-.64c.388.521.754 1.093 1.081 1.75l-3.001.998zm12 7.892l-6.707-2.427-5.293 2.427-5.581-2.427-6.419 2.427 3.62-8.144c.299.76.554 1.776.596 3.583l-.443.996 2.699-1.021 4.809 2.091.751-3.725.718 3.675 4.454-2.042 3.099 1.121-.461-1.055c.026-.392.068-.78.131-1.144.144-.84.345-1.564.585-2.212l3.442 7.877z"
+                        />
+                    </svg>
+                </butt>
+
+                <!-- Modal -->
+                <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                >
+                    <div class="modal-dialog modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5
+                                    class="modal-title title-1"
+                                    id="exampleModalLabel"
+                                >
+                                    Vị Trí Công Ty Hạt Giống Số 1 Tại Việt Nam
+                                    CP Seed
+                                </h5>
+                                <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.425041946459!2d107.24578961433936!3d11.156132155121776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174f503e47f94dd%3A0x92c993a0cbcfc0d1!2sC.P.SEEDS%20VIETNAM%20CO.%2CLTD!5e0!3m2!1sen!2s!4v1614824425638!5m2!1sen!2s"
+                                    width="100%"
+                                    height="450"
+                                    style="border: 0"
+                                    allowfullscreen="true"
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button
+                                    type="button"
+                                    class="btn btn-success"
+                                    data-bs-dismiss="modal"
+                                >
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="p-2 bd-highlight my-list-group">
-        <div class="list-group">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item list-active"
-          >
-            <p>liên hệ với chúng tôi</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>facebook</b></p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>youtube</b></p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>zalo</b></p>
-          </a>
+
+        <div class="d-flex flex-row bd-highlight mb-3 footer mt-5">
+            <div class="p-2 bd-highlight footer-1">
+                <div
+                    class="container-fluid d-flex flex-column align-items-center"
+                >
+                    <div class="footer-1__logo">
+                        <svg
+                            width="180"
+                            height="100"
+                            viewBox="0 0 180 100"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect width="100" height="100" fill="black" />
+                            <path
+                                d="M82.709 26.2031C84.1906 27.7028 86.3335 30.0938 88.4487 33.2376C90.2716 35.9466 91.7573 38.7178 92.9067 41.5393C88.8054 44.5429 85.2976 48.1197 82.5008 52.1682C79.7285 48.1558 76.2574 44.6058 72.2026 41.6198C73.4051 38.7354 74.9618 35.9089 76.8729 33.1528C79.0313 30.0409 81.2077 27.681 82.709 26.2031V26.2031Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M81.5962 89.7036C79.695 89.3846 76.7227 88.7158 73.3707 87.3403C65.8245 84.2435 59.9794 79.1938 55.9981 72.3306C48.442 59.304 50.9286 45.0916 52.4152 39.3999C54.4381 39.8934 57.4773 40.7964 60.8709 42.3582C68.8196 46.0147 74.8843 51.3766 78.8966 58.2927C82.8771 65.156 84.4208 72.8425 83.4844 81.1409C83.0681 84.8242 82.2281 87.8304 81.5962 89.7036V89.7036Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M127.181 56.0016C130.891 56.2542 133.988 56.9172 136 57.4534C135.538 59.5356 134.685 62.6676 133.195 66.1697C129.706 74.3724 124.543 80.6524 117.85 84.8359C112.6 88.1173 106.776 89.8386 100.532 89.9645C106.264 86.3768 110.985 81.5168 114.395 75.6363C117.766 69.8254 119.769 63.1678 120.321 56.057C122.54 55.8639 124.827 55.8421 127.181 56.0016Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M112.585 39.3999C113.124 41.4644 113.795 44.6418 114.072 48.4536C114.72 57.3805 113.015 65.4136 109.003 72.3306C105.021 79.193 99.1763 84.2435 91.63 87.3403C90.5435 87.7859 89.501 88.1535 88.5181 88.4632C88.9761 86.6638 89.4088 84.5322 89.6912 82.1463C90.6814 73.7799 89.4251 65.6411 86.0544 58.3808C86.0715 58.3515 86.0879 58.3221 86.105 58.2927C90.1173 51.3758 96.1812 46.0147 104.13 42.3582C107.523 40.7972 110.562 39.8934 112.585 39.3999Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M29 57.4536C31.0115 56.9173 34.1095 56.2543 37.8206 56.0017C40.1741 55.8423 42.4615 55.8624 44.6803 56.0563C45.2322 63.1663 47.2347 69.8256 50.6062 75.6364C54.0169 81.5161 58.7386 86.3769 64.4694 89.9646C58.2251 89.8388 52.3997 88.1167 47.1514 84.8361C34.5446 76.9565 30.2759 63.199 29 57.4536V57.4536Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M119.891 57.2812C120.839 57.2812 121.625 57.0052 122.25 56.4531C122.875 55.901 123.208 55.2188 123.25 54.4062H126.828C126.786 55.4583 126.458 56.4427 125.844 57.3594C125.229 58.2656 124.396 58.9844 123.344 59.5156C122.292 60.0469 121.156 60.3125 119.938 60.3125C117.573 60.3125 115.698 59.5469 114.312 58.0156C112.927 56.4844 112.234 54.3698 112.234 51.6719V51.2812C112.234 48.7083 112.922 46.651 114.297 45.1094C115.672 43.5573 117.547 42.7812 119.922 42.7812C121.932 42.7812 123.568 43.3698 124.828 44.5469C126.099 45.7135 126.766 47.25 126.828 49.1562H123.25C123.208 48.1875 122.875 47.3906 122.25 46.7656C121.635 46.1406 120.849 45.8281 119.891 45.8281C118.661 45.8281 117.714 46.276 117.047 47.1719C116.38 48.0573 116.042 49.4062 116.031 51.2188V51.8281C116.031 53.6615 116.359 55.0312 117.016 55.9375C117.682 56.8333 118.641 57.2812 119.891 57.2812ZM144.5 51.7188C144.5 54.3333 143.906 56.4219 142.719 57.9844C141.531 59.5365 139.938 60.3125 137.938 60.3125C136.083 60.3125 134.599 59.7031 133.484 58.4844V66.5H129.688V43.0938H133.188L133.344 44.8125C134.458 43.4583 135.974 42.7812 137.891 42.7812C139.953 42.7812 141.568 43.5521 142.734 45.0938C143.911 46.625 144.5 48.7552 144.5 51.4844V51.7188ZM140.719 51.3906C140.719 49.7031 140.38 48.3646 139.703 47.375C139.036 46.3854 138.078 45.8906 136.828 45.8906C135.276 45.8906 134.161 46.5312 133.484 47.8125V55.3125C134.172 56.625 135.297 57.2812 136.859 57.2812C138.068 57.2812 139.01 56.7969 139.688 55.8281C140.375 54.849 140.719 53.3698 140.719 51.3906Z"
+                                fill="black"
+                            />
+                            <path
+                                d="M122.422 83.4062C122.422 82.7292 122.141 82.2135 121.578 81.8594C121.026 81.5052 120.104 81.1927 118.812 80.9219C117.521 80.651 116.443 80.3073 115.578 79.8906C113.682 78.974 112.734 77.6458 112.734 75.9062C112.734 74.4479 113.349 73.2292 114.578 72.25C115.807 71.2708 117.37 70.7812 119.266 70.7812C121.286 70.7812 122.917 71.2812 124.156 72.2812C125.406 73.2812 126.031 74.5781 126.031 76.1719H122.234C122.234 75.4427 121.964 74.8385 121.422 74.3594C120.88 73.8698 120.161 73.625 119.266 73.625C118.432 73.625 117.75 73.8177 117.219 74.2031C116.698 74.5885 116.438 75.1042 116.438 75.75C116.438 76.3333 116.682 76.7865 117.172 77.1094C117.661 77.4323 118.651 77.7604 120.141 78.0938C121.63 78.4167 122.797 78.8073 123.641 79.2656C124.495 79.7135 125.125 80.2552 125.531 80.8906C125.948 81.526 126.156 82.2969 126.156 83.2031C126.156 84.724 125.526 85.9583 124.266 86.9062C123.005 87.8438 121.354 88.3125 119.312 88.3125C117.927 88.3125 116.693 88.0625 115.609 87.5625C114.526 87.0625 113.682 86.375 113.078 85.5C112.474 84.625 112.172 83.6823 112.172 82.6719H115.859C115.911 83.5677 116.25 84.2604 116.875 84.75C117.5 85.2292 118.328 85.4688 119.359 85.4688C120.359 85.4688 121.12 85.2812 121.641 84.9062C122.161 84.5208 122.422 84.0208 122.422 83.4062ZM136.922 88.3125C134.516 88.3125 132.562 87.5573 131.062 86.0469C129.573 84.526 128.828 82.5052 128.828 79.9844V79.5156C128.828 77.8281 129.151 76.3229 129.797 75C130.453 73.6667 131.37 72.6302 132.547 71.8906C133.724 71.151 135.036 70.7812 136.484 70.7812C138.786 70.7812 140.562 71.5156 141.812 72.9844C143.073 74.4531 143.703 76.5312 143.703 79.2188V80.75H132.656C132.771 82.1458 133.234 83.25 134.047 84.0625C134.87 84.875 135.901 85.2812 137.141 85.2812C138.88 85.2812 140.297 84.5781 141.391 83.1719L143.438 85.125C142.76 86.1354 141.854 86.9219 140.719 87.4844C139.594 88.0365 138.328 88.3125 136.922 88.3125ZM136.469 73.8281C135.427 73.8281 134.583 74.1927 133.938 74.9219C133.302 75.651 132.896 76.6667 132.719 77.9688H139.953V77.6875C139.87 76.4167 139.531 75.4583 138.938 74.8125C138.344 74.1562 137.521 73.8281 136.469 73.8281ZM154.109 88.3125C151.703 88.3125 149.75 87.5573 148.25 86.0469C146.76 84.526 146.016 82.5052 146.016 79.9844V79.5156C146.016 77.8281 146.339 76.3229 146.984 75C147.641 73.6667 148.557 72.6302 149.734 71.8906C150.911 71.151 152.224 70.7812 153.672 70.7812C155.974 70.7812 157.75 71.5156 159 72.9844C160.26 74.4531 160.891 76.5312 160.891 79.2188V80.75H149.844C149.958 82.1458 150.422 83.25 151.234 84.0625C152.057 84.875 153.089 85.2812 154.328 85.2812C156.068 85.2812 157.484 84.5781 158.578 83.1719L160.625 85.125C159.948 86.1354 159.042 86.9219 157.906 87.4844C156.781 88.0365 155.516 88.3125 154.109 88.3125ZM153.656 73.8281C152.615 73.8281 151.771 74.1927 151.125 74.9219C150.49 75.651 150.083 76.6667 149.906 77.9688H157.141V77.6875C157.057 76.4167 156.719 75.4583 156.125 74.8125C155.531 74.1562 154.708 73.8281 153.656 73.8281ZM163.141 79.4219C163.141 76.8177 163.745 74.7292 164.953 73.1562C166.161 71.5729 167.781 70.7812 169.812 70.7812C171.604 70.7812 173.052 71.4062 174.156 72.6562V64H177.953V88H174.516L174.328 86.25C173.193 87.625 171.677 88.3125 169.781 88.3125C167.802 88.3125 166.198 87.5156 164.969 85.9219C163.75 84.3281 163.141 82.1615 163.141 79.4219ZM166.938 79.75C166.938 81.4688 167.266 82.8125 167.922 83.7812C168.589 84.7396 169.531 85.2188 170.75 85.2188C172.302 85.2188 173.438 84.526 174.156 83.1406V75.9219C173.458 74.5677 172.333 73.8906 170.781 73.8906C169.552 73.8906 168.604 74.3802 167.938 75.3594C167.271 76.3281 166.938 77.7917 166.938 79.75Z"
+                                fill="black"
+                            />
+                        </svg>
+                    </div>
+                </div>
+                <div class="p-2 bd-highlight footer-1__title">
+                    <p>Mạng xã hội</p>
+                </div>
+
+                <div class="d-flex flex-row bd-highlight footer-1-social mt-2">
+                    <div class="bd-highlight footer-1__fb">
+                        <a
+                            class="btn btn-secondary footer-1-btn"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="facebook"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="bd-highlight footer-1__yt">
+                        <a
+                            class="btn btn-secondary footer-1-btn"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="youtube"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="bd-highlight footer-1__zl">
+                        <a
+                            class="btn btn-secondary footer-1-btn"
+                            style="padding-bottom: 12px !important"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="zalo"
+                        >
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 201 200"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M0.5 0H200.5V200H0.5V0Z"
+                                    fill="black"
+                                />
+                                <path
+                                    d="M80.6641 133.254H142.48V148H58.5938V134.719L116.895 57.2773H59.4727V42.3359H139.551V55.1289L80.6641 133.254Z"
+                                    fill="white"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bd-highlight footer-2">
+                <p class="footer-2__title">Liên hệ với chúng tôi</p>
+                <a class="footer-2__item" href="#"
+                    ><p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Error iure dolor praesentium ad impedit illo eum
+                        nemo fuga omnis accusantium nihil repellat quod nam
+                        fugit distinctio cupiditate, dicta accusamus porro
+                        consectetur totam? Dicta dignissimos illum blanditiis ab
+                        neque illo, nobis fugit. Assumenda aut omnis eaque
+                        facere modi vitae consequatur nostrum.s
+                    </p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+            </div>
+            <div class="bd-highlight footer-2">
+                <p class="footer-2__title">Liên hệ với chúng tôi</p>
+                <a class="footer-2__item" href="#"
+                    ><p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Error iure dolor praesentium ad impedit illo eum
+                        nemo fuga omnis accusantium nihil repellat quod nam
+                        fugit distinctio cupiditate, dicta accusamus porro
+                        consectetur totam? Dicta dignissimos illum blanditiis ab
+                        neque illo, nobis fugit. Assumenda aut omnis eaque
+                        facere modi vitae consequatur nostrum.s
+                    </p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+            </div>
+            <div class="bd-highlight footer-2">
+                <p class="footer-2__title">Liên hệ với chúng tôi</p>
+                <a class="footer-2__item" href="#"
+                    ><p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Error iure dolor praesentium ad impedit illo eum
+                        nemo fuga omnis accusantium nihil repellat quod nam
+                        fugit distinctio cupiditate, dicta accusamus porro
+                        consectetur totam? Dicta dignissimos illum blanditiis ab
+                        neque illo, nobis fugit. Assumenda aut omnis eaque
+                        facere modi vitae consequatur nostrum.s
+                    </p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+                <a class="footer-2__item" href="#"
+                    ><p>Liên hệ với chúng tôi</p></a
+                >
+            </div>
         </div>
-      </div>
-      <div class="p-2 bd-highlight my-list-group">
-        <div class="list-group">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item list-active"
-          >
-            <p>Vị trí của chúng tôi</p>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action my-list-item"
-          >
-            <p><b>google map</b></p>
-          </a>
+
+        <div
+            class="container border-top border-1 d-flex flex-row bd-highlight mb-3 justify-content-between"
+        >
+            <div class="bd-highlight footer-design mt-2 mb-2">
+                @Design By Bi & Long Inc. All Rights Reserved
+            </div>
+            <div class="bd-highlight footer-domain mt-2 mb-2">
+                &copy;cpseed-vn.com
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container-fluid footer-domain-container border-top border-1">
-      <div class="d-flex flex-row bd-highlight justify-content-center mt-4">
-        <div><p class="footer-domain">cpseedvn.com</p></div>
-      </div>
-    </div>
+        <script src="../swiper-animation/build/swiper-animation.min.js"></script>
+        <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- wow -->
+        <script src="../../WOW/dist/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 
-    <script src="../swiper-animation/build/swiper-animation.min.js"></script>
-    <!-- //////////////////////////////////////////////////////////////////////////////////// -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- wow -->
-    <script src="../../WOW/dist/wow.js"></script>
-    <script>
-      new WOW().init();
-    </script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".intro-swiper", {
+                direction: "vertical",
+                slidesPerView: 1,
+                spaceBetween: 30,
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".intro-swiper", {
-        direction: "vertical",
-        slidesPerView: 1,
-        spaceBetween: 30,
+                mousewheel: true,
+                pagination: {
+                    el: ".intro-swiper-pagination",
+                    clickable: true,
+                },
+            });
 
-        mousewheel: true,
-        pagination: {
-          el: ".intro-swiper-pagination",
-          clickable: true,
-        },
-      });
+            var swiper1 = new Swiper(".banner-swiper-container", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 5500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".banner-swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".banner-swiper-button-next",
+                    prevEl: ".banner-swiper-button-prev",
+                },
+            });
+        </script>
 
-      var swiper1 = new Swiper(".banner-swiper-container", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 5500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".banner-swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".banner-swiper-button-next",
-          prevEl: ".banner-swiper-button-prev",
-        },
-      });
-    </script>
+        <script>
+            var swiperAnimation = new SwiperAnimation();
+            var mySwiper4 = new Swiper(".swiper-container", {
+                on: {
+                    init: function () {
+                        swiperAnimation.init(this).animate();
+                    },
+                    slideChange: function () {
+                        swiperAnimation.init(this).animate();
+                    },
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
 
-    <script>
-      var swiperAnimation = new SwiperAnimation();
-      var mySwiper4 = new Swiper(".swiper-container", {
-        on: {
-          init: function () {
-            swiperAnimation.init(this).animate();
-          },
-          slideChange: function () {
-            swiperAnimation.init(this).animate();
-          },
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+        <script type="text/javascript" src="../../venobox/venobox.js"></script>
+        <script>
+            $(document).ready(function () {
+                var test = $(".venobox").venobox();
 
-    <script type="text/javascript" src="../../venobox/venobox.js"></script>
-    <script>
-      $(document).ready(function () {
-        var test = $(".venobox").venobox();
+                // close current item clicking on .closeme
+                $(document).on("click", ".closeme", function (e) {
+                    test.VBclose();
+                });
 
-        // close current item clicking on .closeme
-        $(document).on("click", ".closeme", function (e) {
-          test.VBclose();
-        });
+                // go to next item in gallery clicking on .next
+                $(document).on("click", ".next", function (e) {
+                    test.VBnext();
+                });
 
-        // go to next item in gallery clicking on .next
-        $(document).on("click", ".next", function (e) {
-          test.VBnext();
-        });
-
-        // go to previous item in gallery clicking on .previous
-        $(document).on("click", ".previous", function (e) {
-          test.VBprev();
-        });
-      });
-    </script>
-  </body>
+                // go to previous item in gallery clicking on .previous
+                $(document).on("click", ".previous", function (e) {
+                    test.VBprev();
+                });
+            });
+        </script>
+    </body>
 </html>

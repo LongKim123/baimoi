@@ -6,6 +6,106 @@ body {
   background: #fff !important;
 }
 
+.footer-map {
+  border-bottom: 1px #c4c4c4 solid;
+}
+
+.footer-map__btn {
+  background: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none;
+}
+
+.footer-map__btn:hover {
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.footer-1-social {
+  margin-left: 23%;
+}
+
+.footer-1__title {
+  margin-left: 25%;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer-1-btn {
+  background: #f3f3f3 !important;
+  border: none !important;
+  padding: 12px !important;
+  border-radius: 50% !important;
+  margin-right: 20px;
+  -webkit-transition: all 0.2 linear;
+  transition: all 0.2 linear;
+}
+
+.footer-1-btn:hover {
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.footer-design, .footer-domain {
+  text-transform: lowercase;
+  font-style: italic;
+  color: #2c2c2c;
+  font-size: 14px;
+}
+
+.footer-domain {
+  text-transform: lowercase;
+  font-style: italic;
+  color: #2c2c2c;
+  font-size: 14px !important;
+}
+
+.footer-1 {
+  width: 30%;
+  position: relative;
+}
+
+.footer-2 {
+  width: 20%;
+  position: relative;
+  padding: 0 10px;
+}
+
+.footer-2__title {
+  width: 100%;
+  padding: 8px 16px;
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-2__item {
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  text-transform: lowercase;
+}
+
+.footer-2__item p {
+  width: 100%;
+  padding: 8px 20px;
+  color: #000;
+  text-align: left;
+  line-height: 32px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.footer-2__item p:hover {
+  background: #f8f9fa !important;
+  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+}
+
 p {
   margin-bottom: 0 !important;
 }

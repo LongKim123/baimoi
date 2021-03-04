@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -13,60 +14,18 @@ body {
 }
 
 .my-banner {
-  width: 700px;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
 
-.my-banner .breadcrumb {
-  text-transform: capitalize;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  color: #000;
-  position: absolute;
-  top: 19%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  z-index: 2;
-}
-
-.my-banner .breadcrumb-item a {
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.my-banner .active {
-  text-decoration: underline !important;
-  font-weight: 500;
-  color: #000;
-}
-
-.my-banner__title {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-size: 90px;
-  font-family: "Taviraj", serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  z-index: 2;
-}
-
 .my-banner__crop {
   position: absolute;
-  top: 80px;
-  left: 50px;
-  width: 600px;
-  height: 550px;
+  width: 100%;
+  height: 80%;
   background: #f8f9fa;
   overflow: hidden;
+  margin-top: 10%;
   -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
           box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
 }
@@ -85,17 +44,107 @@ body {
           transform: scale(1.15);
 }
 
+.my-banner__thumbnail {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+
+.my-banner__left {
+  width: 50%;
+  position: relative;
+}
+
+.my-banner__right {
+  width: 50%;
+  position: relative;
+  margin-left: 30px;
+}
+
+.my-banner .breadcrumb {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+}
+
+.my-banner .breadcrumb-item a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.my-banner .breadcrumb-item a:hover {
+  color: #789a3d !important;
+}
+
+.my-banner .active {
+  text-decoration: underline !important;
+  font-weight: 500;
+  color: #000;
+}
+
+.my-banner__title {
+  font-size: 60px;
+  font-family: "Taviraj", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.my-banner__des {
+  font-weight: 500;
+  line-height: 32px;
+  padding-left: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.my-banner-btn {
+  padding: 8px 40px !important;
+  margin-top: 2%;
+  margin-left: 15px;
+}
+
+.my-banner-modal-dialog {
+  margin: 0 200px !important;
+}
+
+.my-banner-modal-content {
+  margin-top: 20px;
+  width: calc(498px * 2);
+  padding: 0 30px !important;
+}
+
+.my-banner-modal-title {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+}
+
+.my-banner-modal-body {
+  line-height: 32px !important;
+}
+
 a {
   color: black !important;
 }
 
 .menu-header a {
-  font-size: 14px !important;
+  font-size: 16px !important;
   font-weight: 600;
 }
 
 .menu-header a:hover {
   background: #f3f3f3 !important;
+}
+
+.item--menu-1 {
+  position: absolute !important;
+  right: 0 !important;
+  left: auto !important;
 }
 
 .item--menu,
@@ -232,6 +281,9 @@ a {
 
 .content__left {
   width: 25%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 8px 16px;
   position: relative;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -363,14 +415,13 @@ a {
   font-weight: 700;
   color: #198754;
   text-transform: uppercase;
-  margin-bottom: 15px;
 }
 
 .des-1 {
   font-size: 16px;
   color: black;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 .footer-container-fluid {

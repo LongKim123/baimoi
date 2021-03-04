@@ -2,79 +2,168 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 body {
-  color: black;
-  font-family: "Open Sans", sans-serif;
-  background: #fff !important;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    background: #fff !important;
+}
+
+.footer-map {
+    border-bottom: 1px #c4c4c4 solid;
+    &__btn {
+        background: none;
+        box-shadow: none !important;
+        border: none;
+        &:hover {
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+        }
+    }
+}
+.footer-1-social {
+    margin-left: 23%;
+}
+.footer-1__title {
+    margin-left: 25%;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 18px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-1-btn {
+    background: #f3f3f3 !important;
+    border: none !important;
+    padding: 12px !important;
+    border-radius: 50% !important;
+
+    margin-right: 20px;
+    transition: all 0.2 linear;
+    &:hover {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+    }
+}
+.footer {
+    &-design,
+    &-domain {
+        text-transform: lowercase;
+        font-style: italic;
+        color: #2c2c2c;
+        font-size: 14px;
+    }
+    &-domain {
+        text-transform: lowercase;
+        font-style: italic;
+        color: #2c2c2c;
+        font-size: 14px !important;
+    }
+    &-1 {
+        width: 30%;
+        position: relative;
+    }
+    &-2 {
+        width: 20%;
+        position: relative;
+        padding: 0 10px;
+        &__title {
+            width: 100%;
+            padding: 8px 16px;
+
+            text-align: left;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__item {
+            text-decoration: none;
+            width: 100%;
+            height: auto;
+            text-transform: lowercase;
+
+            p {
+                width: 100%;
+                padding: 8px 20px;
+                color: #000;
+                text-align: left;
+                line-height: 32px;
+
+                transition: all 0.2s linear;
+
+                &:hover {
+                    background: #f8f9fa !important;
+                    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15) !important;
+                }
+            }
+        }
+    }
 }
 
 p {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .swiper-container {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 .my-list-item p {
-  text-transform: lowercase;
-  font-size: 13px;
-  padding: 8px 16px;
-  background: transparent !important;
+    text-transform: lowercase;
+    font-size: 13px;
+    padding: 8px 16px;
+    background: transparent !important;
 }
 .my-list-item:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .list-active p {
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 600;
-  background: transparent !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent !important;
 }
 .list-group-item {
-  padding: 0 !important;
-  border: none !important;
+    padding: 0 !important;
+    border: none !important;
 }
 .my-list-group {
-  padding: 0 20px !important;
-  margin-top: 20px !important;
+    padding: 0 20px !important;
+    margin-top: 20px !important;
 }
 .footer-domain {
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 300;
-  margin-right: 50px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    margin-right: 50px;
 }
 .footer-domain-container {
-  margin-top: 30px !important;
+    margin-top: 30px !important;
 }
 .logo-footer {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
 .btn-map {
-  width: 500px;
-  border: 1px black solid;
-  background-color: #fff;
-  font-size: 13px;
-  padding: 16px 0 !important;
+    width: 500px;
+    border: 1px black solid;
+    background-color: #fff;
+    font-size: 13px;
+    padding: 16px 0 !important;
 }
