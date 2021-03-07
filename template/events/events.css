@@ -13,7 +13,7 @@ body {
 }
 
 .card-5 {
-  height: 20rem !important;
+  height: auto !important;
   position: relative;
   border: none;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
@@ -79,7 +79,7 @@ body {
   fill: red;
 }
 
-.card-5-card-body .card-text {
+.card-5-card-text {
   text-align: start;
   color: black;
   font-size: 15px;

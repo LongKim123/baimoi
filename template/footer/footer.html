@@ -33,7 +33,7 @@
         <!-- venobox -->
         <link
             rel="stylesheet"
-            href="../../venobox/venobox.min.css"
+            href="../venobox/venobox.min.css"
             type="text/css"
             media="screen"
         />
@@ -43,12 +43,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="./footer.css" />
+        <link rel="stylesheet" href="../style/style.css" />
     </head>
 
     <body>
         <div
-            class="container d-flex flex-row bd-highlight mb-3 pt-4 pb-4 justify-content-center align-items-center footer-map"
+            class="container d-flex flex-row bd-highlight pb-4 justify-content-center align-items-center footer-map mt-5    "
         >
             <div class="p-2 bd-highlight">
                 <p>Nhấn vào đây để biết được vị trí của chúng tôi nào !</p>
@@ -240,71 +240,81 @@
             </div>
             <div class="bd-highlight footer-2">
                 <p class="footer-2__title">Liên hệ với chúng tôi</p>
-                <a class="footer-2__item" href="#"
-                    ><p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Error iure dolor praesentium ad impedit illo eum
-                        nemo fuga omnis accusantium nihil repellat quod nam
-                        fugit distinctio cupiditate, dicta accusamus porro
-                        consectetur totam? Dicta dignissimos illum blanditiis ab
-                        neque illo, nobis fugit. Assumenda aut omnis eaque
-                        facere modi vitae consequatur nostrum.s
+                <a class="footer-2__item" href="#">
+                    <p>
+                        <span
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                                /></svg
+                        ></span>
+                        <span
+                            ><b> Địa chỉ:</b>
+                            {{getConfigValueFromSettingTable('Address_cp')}}</span
+                        >
+                    </p></a
+                >
+                <a class="footer-2__item" href="#">
+                    <p>
+                        <span
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                                /></svg
+                        ></span>
+                        <b> Điện thoại:</b>
+                        <span>
+                            {{getConfigValueFromSettingTable('phone_contact')}}</span
+                        >
+                    </p></a
+                >
+                <a class="footer-2__item" href="#">
+                    <p>
+                        <span
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"
+                                /></svg
+                        ></span>
+                        <b> Email:</b>
+                        <span>
+                            {{getConfigValueFromSettingTable('email_link')}</span
+                        >
                     </p></a
                 >
                 <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-            </div>
-            <div class="bd-highlight footer-2">
-                <p class="footer-2__title">Liên hệ với chúng tôi</p>
-                <a class="footer-2__item" href="#"
                     ><p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Error iure dolor praesentium ad impedit illo eum
-                        nemo fuga omnis accusantium nihil repellat quod nam
-                        fugit distinctio cupiditate, dicta accusamus porro
-                        consectetur totam? Dicta dignissimos illum blanditiis ab
-                        neque illo, nobis fugit. Assumenda aut omnis eaque
-                        facere modi vitae consequatur nostrum.s
+                        <span
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    d="M23 3v17h-3.229c-.604 1.396-2.793 4-4.041 4h-11.73v-4h-3v-17h3v-3h16v3h3zm-18 0h14v-2h-14v2zm14 14h-14v6h10.271c1.386 0 1.562-1.885 1.109-2.698.677.186 2.62-.113 2.62-1.531v-1.771zm-11-4v1h2v-1h-2zm2-1v-1h-2v1h2zm1 1v1h2v-1h-2zm2-1v-1h-2v1h2zm1 1v1h2v-1h-2zm2-1v-1h-2v1h2zm3-6h-14v3h14v-3zm-3 12h-8v1h8v-1zm-2 2h-6v1h6v-1z"
+                                /></svg
+                        ></span>
+                        <b> Fax:</b>
+                        <span>
+                            {{getConfigValueFromSettingTable('fax_links')}}</span
+                        >
                     </p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-            </div>
-            <div class="bd-highlight footer-2">
-                <p class="footer-2__title">Liên hệ với chúng tôi</p>
-                <a class="footer-2__item" href="#"
-                    ><p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Error iure dolor praesentium ad impedit illo eum
-                        nemo fuga omnis accusantium nihil repellat quod nam
-                        fugit distinctio cupiditate, dicta accusamus porro
-                        consectetur totam? Dicta dignissimos illum blanditiis ab
-                        neque illo, nobis fugit. Assumenda aut omnis eaque
-                        facere modi vitae consequatur nostrum.s
-                    </p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
-                >
-                <a class="footer-2__item" href="#"
-                    ><p>Liên hệ với chúng tôi</p></a
                 >
             </div>
         </div>
@@ -380,7 +390,7 @@
             });
         </script>
 
-        <script type="text/javascript" src="../../venobox/venobox.js"></script>
+        <script type="text/javascript" src="../venobox/venobox.js"></script>
         <script>
             $(document).ready(function () {
                 var test = $(".venobox").venobox();
