@@ -122,7 +122,11 @@ body {
         line-height: 32px !important;
     }
 }
-
+.item--menu-1 {
+    position: absolute !important;
+    right: 0 !important;
+    left: auto !important;
+}
 a {
     color: black !important;
 }
@@ -137,11 +141,7 @@ a {
         }
     }
 }
-.item--menu-1 {
-    position: absolute !important;
-    right: 0 !important;
-    left: auto !important;
-}
+
 .item--menu,
 .menu-children-lv3 li,
 .menu-children-lv2 li {
